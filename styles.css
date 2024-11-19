@@ -1,0 +1,101 @@
+* {
+    background-color: white;
+    color:steelblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    border-style: dotted;
+    border-color:steelblue;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.content {
+    border-style: dotted;
+    border-color: steelblue;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2;
+    border-top: 2;
+    padding-bottom: 15px;
+    /*quedaba mejor alineado al centro, solo como sugerencia :P */
+}
+
+h3 {
+    text-align: center;
+}
+
+.sidebar {
+    border-style: dotted;
+    border-color: steelblue;
+    width: 150px;
+    position: relative;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 1200px;
+    z-index: 2;
+}
+
+/*.sidebar {
+    border-style: dotted;
+    border-color: steelblue;
+    width: 150px;
+    position: relative;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 1200px;
+    z-index: 2;
+}*/
+
+button {
+    background-color: antiquewhite;
+    color: black;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+content: "➡️";
+padding-right: 4px;
+}
+
+li:hover {
+    color: white;
+}
+
+.features {
+    text-align: center;
+    border-style: dotted;
+    border-color: steelblue;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 30px;
+    /*he dejado más margen entre cada uno para hacer scroll y que se vean las interacciones de los elementos de la página*/
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
